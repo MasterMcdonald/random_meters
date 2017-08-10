@@ -1,0 +1,27 @@
+该程序可以根据提供的三个总表值（总水量，压力，瞬时流速）以及一个数串
+自动随机生成表格
+数串规则：
+	0: 一个主流表
+	n>=1: n个支流表
+例子：10112110: 
+	1: 总表 
+	0: 一个主流表
+	1: 一个支流表
+	1: 一个支流表
+	2: 两个支流表
+	1: 一个支流表
+	1: 一个支流表
+	0: 一个主流表
+
+该程序需要：
+	python 2.7: https://www.python.org/downloads/release/python-2713/
+	MySQL Community: https://dev.mysql.com/downloads/windows/installer/
+		Windows (x86, 32-bit), MSI Installer
+	MySQLdb: https://pypi.python.org/pypi/MySQL-python
+		or
+		in cmd: pip install MySQLdb
+另外需检查是否拥有：
+	Tkinter
+	若没有：https://wiki.python.org/moin/TkInter
+可能需要设置：
+	python加入环境变量
