@@ -1,5 +1,5 @@
-This is a small program that give 3 inital 
-values and the pipline meters' list.
+ This is a small program that automatically get all the meters' values with 3 inital 
+values of root meter and the pipline meters' list.
 meter list rule:
 	'1': there is 1 subline meter
 	'2': there is 2 subline meters
